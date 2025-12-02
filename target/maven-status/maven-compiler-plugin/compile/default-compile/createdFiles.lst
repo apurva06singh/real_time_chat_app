@@ -1,0 +1,8 @@
+com\example\chatapp\handler\ChatWebSocketHandler.class
+com\example\chatapp\config\WebSocketConfig.class
+com\example\chatapp\model\User.class
+com\example\chatapp\repository\UserRepository.class
+com\example\chatapp\ChatApplication.class
+com\example\chatapp\model\ChatMessage.class
+com\example\chatapp\repository\ChatRepository.class
+com\example\chatapp\controller\UserController.class

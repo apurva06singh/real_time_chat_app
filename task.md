@@ -1,0 +1,21 @@
+# Real-Time Chat Application (Spring WebFlux + MongoDB)
+
+- [x] **Project Setup**
+    - [x] Create project directory and structure <!-- id: 0 -->
+    - [x] Create `pom.xml` with dependencies (WebFlux, MongoDB, Lombok) <!-- id: 1 -->
+    - [x] Create Main Application Class <!-- id: 2 -->
+- [x] **Domain & Data Layer**
+    - [x] Define `User` and `ChatMessage` documents <!-- id: 3 -->
+    - [x] Create Reactive MongoDB Repositories <!-- id: 4 -->
+- [x] **Real-Time Communication (WebSocket)**
+    - [x] Create `WebSocketHandler` for handling messages <!-- id: 5 -->
+    - [x] Configure `WebSocketHandlerAdapter` and URL mapping <!-- id: 6 -->
+- [x] **Business Logic**
+    - [x] Implement message saving and broadcasting <!-- id: 7 -->
+    - [x] Implement user registration/authentication (Basic) <!-- id: 8 -->
+- [x] **Frontend (Client)**
+    - [x] Create `index.html` with WebSocket client (JS) <!-- id: 9 -->
+    - [x] Style the chat interface <!-- id: 10 -->
+- [x] **Verification**
+    - [x] Test real-time messaging <!-- id: 11 -->
+    - [x] Verify history persistence in MongoDB <!-- id: 12 -->
